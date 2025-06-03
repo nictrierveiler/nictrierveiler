@@ -29,6 +29,9 @@ me = FullStackDev()
 me.say_hi()
 ```
 
+![Snake Game](assets\github-user-contribution.svg)
+
+
 ## 📝 Blogs
 
 - Personal website and blog: https://zhenye-na.github.io/
