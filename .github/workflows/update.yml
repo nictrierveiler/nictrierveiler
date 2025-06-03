@@ -36,4 +36,9 @@ jobs:
       - name: Verificar e comitar mudanças
         run: |
           git add README.md
-          git diff --quiet && git diff --staged --quiet ||
+          set +e
+          git diff --quiet && git diff --staged --quiet
+          if [ $? -ne 0 ]; then
+            git commit -m "🕒 Atualiza saudação automaticamente"
+          fi
+
