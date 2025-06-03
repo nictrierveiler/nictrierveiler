@@ -29,7 +29,7 @@ me = FullStackDev()
 me.say_hi()
 ```
 
-![Snake Game](assets\github-user-contribution.svg)
+![Snake Game](./assets/github-user-contribution.svg)
 
 
 ## 📝 Blogs

@@ -5,6 +5,9 @@ on:
     - cron: '0 * * * *'  # roda todo início de hora
   workflow_dispatch:     # permite rodar manualmente
 
+permissions:
+  contents: write  # Grant write permissions to contents
+
 jobs:
   update:
     runs-on: ubuntu-latest
@@ -28,6 +31,3 @@ jobs:
           git add README.md
           git commit -m "🕒 Atualiza saudação automaticamente"
           git push
-
-permissions:
-  contents: write
