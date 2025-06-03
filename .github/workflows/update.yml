@@ -42,3 +42,5 @@ jobs:
             git commit -m "🕒 Atualiza saudação automaticamente"
           fi
 
+      - name: Push changes
+        run: git push origin main
