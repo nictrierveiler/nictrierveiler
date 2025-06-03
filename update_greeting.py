@@ -6,13 +6,13 @@ def gerar_saudacao():
         hora += 24
 
     if 6 <= hora < 12:
-        return "☀️ E aí! Bom dia, campeão!"
+        return "☀️ E aí! Bom dia!"
     elif 12 <= hora < 18:
-        return "🌤️ Boa tarde, guerreiro!"
+        return "🌤️ Boa tarde, seja bem-vindo!"
     elif 18 <= hora < 24:
-        return "🌙 Boa noite, mestre do código!"
+        return "🌙 Boa noite! 🦉"
     else:
-        return "🌚 Tá tarde... vai dormir!"
+        return "🌚 Obrigado por aparecer, mas tá tarde... vai dormir!"
 
 def atualizar_readme():
     with open("README.md", "r", encoding="utf-8") as f:
