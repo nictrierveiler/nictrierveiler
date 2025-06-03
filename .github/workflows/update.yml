@@ -28,3 +28,6 @@ jobs:
           git add README.md
           git commit -m "🕒 Atualiza saudação automaticamente"
           git push
+
+permissions:
+  contents: write
