@@ -12,25 +12,28 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout repository
-      uses: actions/checkout@v3
+      - name: Checkout repository
+        uses: actions/checkout@v3
 
-    - name: Set up Git
-      run: |
-        git config user.name "GitHub Actions Bot"
-        git config user.email "actions@github.com"
+      - name: Set up Git
+        run: |
+          git config user.name "GitHub Actions Bot"
+          git config user.email "actions@github.com"
 
-    - name: Pull latest changes
-      run: git pull origin main
+      - name: Pull latest changes
+        run: git pull origin main
 
-    - name: Make changes
-      run: |
-        # Your script or command to update the greeting
-        echo "Updating greeting message..."
-        # Example change
-        echo "Hello, World!" > greeting.txt
-        git add greeting.txt
-        git commit -m "🕒 Atualiza saudação automaticamente"
+      - name: Instalar Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
 
-    - name: Push changes
-      run: git push origin main
+      - name: Executar script Python
+        run: |
+          pip install -r requirements.txt || true
+          python update_greeting.py
+
+      - name: Verificar e comitar mudanças
+        run: |
+          git add README.md
+          git diff --quiet && git diff --staged --quiet ||
