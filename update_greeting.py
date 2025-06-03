@@ -1,9 +1,9 @@
-from datetime import datetime
+from datetime import datetime, timedelta, timezone
 
 def gerar_saudacao():
-    hora = datetime.utcnow().hour - 3  # UTC-3 para horário de Brasília
-    if hora < 0:
-        hora += 24
+    fuso_brasilia = timezone(timedelta(hours=-3))
+    agora = datetime.now(fuso_brasilia)
+    hora = agora.hour
 
     if 6 <= hora < 12:
         return "☀️ E aí! Bom dia!"
