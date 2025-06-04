@@ -32,23 +32,49 @@ me.say_hi()
 <img src='./assets/github-user-contribution.svg' alt='snake game' />
 
 
-## 📝 Blogs
+## 📊 Stats
+
+<p align="center">
+  <img src="./assets/api.svg" width="30%" />
+  <img src="./assets/download (1).svg" width="30%" />
+  <img src="./assets/download.svg" width="30%" />
+</p>
 
 
 <!-- BLOG-POST-LIST:END -->
 
 ## 🔧 Technologies & Tools
 
-**Programming Languages:**
 
-![Python](https://img.shields.io/badge/Code-Python-informational?style=flat&logo=python&logoColor=white&color=6aa6f8)
+<!-- Python -->
+![Code:](https://img.shields.io/badge/Code%3A-2f2f2f?style=flat)
+![Python](https://img.shields.io/badge/-Python-e63946?style=flat&logo=python&logoColor=white)
+
+<!-- CSS3 -->
+![Code:](https://img.shields.io/badge/Code%3A-2f2f2f?style=flat)
+![CSS3](https://img.shields.io/badge/-CSS3-e63946?style=flat&logo=css3&logoColor=white)
+
+<!-- HTML5 -->
+![Code:](https://img.shields.io/badge/Code%3A-2f2f2f?style=flat)
+![HTML5](https://img.shields.io/badge/-HTML5-e63946?style=flat&logo=html5&logoColor=white)
+
+<!-- JavaScript -->
+![Code:](https://img.shields.io/badge/Code%3A-2f2f2f?style=flat)
+![JavaScript](https://img.shields.io/badge/-JavaScript-e63946?style=flat&logo=javascript&logoColor=white)
+
+<!-- React -->
+![Code:](https://img.shields.io/badge/Code%3A-2f2f2f?style=flat)
+![React](https://img.shields.io/badge/-React-e63946?style=flat&logo=react&logoColor=white)
+
+<!-- Vue -->
+![Code:](https://img.shields.io/badge/Code%3A-2f2f2f?style=flat)
+![Vue](https://img.shields.io/badge/-Vue-e63946?style=flat&logo=vue.js&logoColor=white)
 
 
 
 **Tools and Services:**
 
-![Kubernetes](https://img.shields.io/badge/Tools-Kubernetes-informational?style=flat&logo=kubernetes&logoColor=white&color=6aa6f8)
-![Docker](https://img.shields.io/badge/Tools-Docker-informational?style=flat&logo=docker&logoColor=white&color=6aa6f8)
+
 
 <!-- ## &#x1f4c8; GitHub Stats
 
