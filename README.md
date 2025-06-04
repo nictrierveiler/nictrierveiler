@@ -44,7 +44,7 @@ me.say_hi()
 
 ## 📊 Stats
 
-<p align="center">
+<p align="left">
   <img src="./assets/api.svg" width="50%" /><br>
   <img src="./assets/download.svg" width="50%" /><br>
   <img src="./assets/download (1).svg" width="50%" />
