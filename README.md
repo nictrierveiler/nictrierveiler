@@ -15,19 +15,26 @@ Seja bem-vindo ao meu perfil!
 
 
 class FullStackDev:
-
     def __init__(self):
         self.name = "Nicolas Trierveiler"
-        self.role = "FullStack Developer"
-        self.language_spoken = ["pt_BR", "en_US"]
+        self.role = "Full Stack Developer"
+        self.languages = ["🇧🇷 Português", "🇺🇸 Inglês"]
+        self.stack = ["Python", "JavaScript", "React", "Node.js", "SQL", "HTML/CSS"]
 
-    def say_hi(self):
-        print("Thanks for dropping by, hope you find some of my work interesting.")
+    def __str__(self):
+        return f"{self.name} ({self.role})"
 
+    def introduce(self):
+        print(f"Olá! Eu me chamo {self.name} e atuo como {self.role}.")
+        print(f"Idiomas: {', '.join(self.languages)}")
+        print(f"Tecnologias favoritas: {', '.join(self.stack)}")
+        print("Obrigado por visitar meu perfil! (•◡•)/")
 
-me = FullStackDev()
-me.say_hi()
-```
+if __name__ == "__main__":
+    me = FullStackDev()
+    print(me)
+    me.introduce()
+
 
 <img src='./assets/github-user-contribution.svg' alt='snake game' />
 
