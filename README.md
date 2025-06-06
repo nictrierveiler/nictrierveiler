@@ -1,7 +1,7 @@
 # Olá!
 
 <!-- saudacao -->
-🌙 Boa noite! 🦉
+🌚 Obrigado por aparecer, mas tá tarde... vai dormir!
 <!-- /saudacao -->
 
 Seja bem-vindo ao meu perfil!
@@ -35,6 +35,7 @@ if __name__ == "__main__":
     print(me)
     me.introduce()
 
+```
 
 <img src='./assets/github-user-contribution.svg' alt='snake game' />
 
