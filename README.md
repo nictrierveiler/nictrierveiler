@@ -63,3 +63,6 @@ if __name__ == "__main__":
 
 ## 🗂️ Projetos em Destaque
 
+<a href="https://github.com/nictrierveiler/React-Ecommerce">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=zhenye-na&repo=DA-RNN&show_icons=true&line_height=27&title_color=6aa6f8&text_color=8a919a&icon_color=6aa6f8&bg_color=22272e" alt="DA-RNN" />
+</a>
