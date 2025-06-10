@@ -61,7 +61,7 @@ if __name__ == "__main__":
 
 ## 🏆 Certificações
 
-- Google Developer Fundamentals
+
 
 ## 🗂️ Projetos em Destaque
 
