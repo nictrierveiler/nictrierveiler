@@ -37,7 +37,7 @@ if __name__ == "__main__":
 
 ```
 
-<img src='./assets/github-user-contribution.svg' alt='snake game' />
+<img src='./assets/download.svg' alt='snake game' />
 
 
 ## 🔧 Technologies & Tools
@@ -54,7 +54,6 @@ if __name__ == "__main__":
 
 <p align="left">
   <img src="./assets/api.svg" width="50%" /><br>
-  <img src="./assets/download.svg" width="50%" /><br>
   <img src="./assets/download (1).svg" width="50%" />
 </p>
 
