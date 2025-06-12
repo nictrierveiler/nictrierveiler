@@ -37,7 +37,7 @@ if __name__ == "__main__":
 
 ```
 
-<img src='./assets/download.svg' alt='snake game' />
+<img src='./assets/github-user-contribution.svg' alt='snake game' />
 
 
 ## 🔧 Technologies & Tools
