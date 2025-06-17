@@ -60,7 +60,9 @@ if __name__ == "__main__":
 
 ## 🏆 Certificações
 
-- Google Cloud Certificate
+<p align="left">
+  <img src="./assets/V0I18jLPjGRqhwrDNn+I4YCq5rPoGX4lvg5DjqgwcJ0=.png" width="50%" /><br>
+</p>
 
 ## 🗂️ Projetos em Destaque
 
