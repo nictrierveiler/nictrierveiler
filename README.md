@@ -61,7 +61,8 @@ if __name__ == "__main__":
 ## 🏆 Certificações
 
 <p align="left">
-  <img src="./assets/V0I18jLPjGRqhwrDNn+I4YCq5rPoGX4lvg5DjqgwcJ0=.png" width="25%" /><br>
+  <img src="./assets/V0I18jLPjGRqhwrDNn+I4YCq5rPoGX4lvg5DjqgwcJ0=.png" width="25%" style="margin-right: 3px;" />
+  <img src="./assets/V0I18jLPjGRqhwrDNn+I4YCq5rPoGX4lvg5DjqgwcJ0=.png" width="25%" style="margin-right: 3px;" />
 </p>
 
 ## 🗂️ Projetos em Destaque
