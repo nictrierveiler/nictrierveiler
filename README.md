@@ -1,7 +1,7 @@
 # Olá!
 
 <!-- saudacao -->
-🌙 Boa noite! 🦉
+☀️ E aí! Bom dia!
 <!-- /saudacao -->
 
 Seja bem-vindo ao meu perfil!
